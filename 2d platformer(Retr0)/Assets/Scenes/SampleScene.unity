@@ -397,6 +397,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5359871ecca8c1f40a39b7bb2a505e5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathClip: {fileID: 8300000, guid: 02954c9ee2f91f04295ac39dbfaac58a, type: 3}
+  jumpForce: 700
 --- !u!95 &1406700245
 Animator:
   serializedVersion: 3
@@ -554,7 +556,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 10.24, y: 1.28}
+  m_Size: {x: 16, y: 2}
   m_EdgeRadius: 0
 --- !u!212 &2111112249
 SpriteRenderer:
